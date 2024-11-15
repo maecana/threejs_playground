@@ -13,7 +13,7 @@ const far = 10;
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(w, h);
 
-document.body.appendChild(renderer.domElement);
+document.body.querySelector('#index').appendChild(renderer.domElement);
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
