@@ -5,3 +5,11 @@ body {
     box-sizing: border-box;
     overflow: hidden;
 }
+
+#hero {
+    padding: 2em;
+}
+#hero-name {
+    font-size: larger;
+    font-weight: bolder;
+}

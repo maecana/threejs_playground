@@ -11,12 +11,12 @@ const fov = 45;
 const aspect = w / h;
 const near = 0.1;
 const far = 50;
-const _earthTexturePath = 'public/assets/textures/earthmap1k.jpg';
-const _earthBumpTexturePath = 'public/assets/textures/earthbump1k.jpg';
-const _cloudsTransTexturePath = 'public/assets/textures/earthcloudmaptrans.jpg';
-const _cloudsTexturePath = 'public/assets/textures/earthcloudmap.jpg';
-const _lightsTexturePath = 'public/assets/textures/earthlights1k.jpg';
-const _specsTexturePath = 'public/assets/textures/earthspec1k.jpg';
+const _earthTexturePath = '../public/assets/textures/earthmap1k.jpg';
+const _earthBumpTexturePath = '../public/assets/textures/earthbump1k.jpg';
+const _cloudsTransTexturePath = '../public/assets/textures/earthcloudmaptrans.jpg';
+const _cloudsTexturePath = '../public/assets/textures/earthcloudmap.jpg';
+const _lightsTexturePath = '../public/assets/textures/earthlights1k.jpg';
+const _specsTexturePath = '../public/assets/textures/earthspec1k.jpg';
 
 // Renderer
 const renderer = new THREE.WebGLRenderer({ antialias: true });
