@@ -30,9 +30,10 @@ const hemilight = new THREE.HemisphereLight(0xffffff, 0x000000);
 scene.add(hemilight);
 
 // Geometries
-const tube = new THREE.TubeGeometry(spline, 222, 0.65, 16, true);
+const tube = new THREE.TubeGeometry(spline, 222, 0.65, 22, true);
 const tubeMat = new THREE.MeshStandardMaterial({
     color: 0xffffff,
+    side: THREE.DoubleSide,
     flatShading: true,
 });
 const tubeMesh = new THREE.Mesh(tube, tubeMat);
