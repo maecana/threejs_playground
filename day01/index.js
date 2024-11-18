@@ -56,7 +56,7 @@ const boxMat = new THREE.MeshStandardMaterial({
     flatShading: true
 });
 const boxMesh = new THREE.Mesh(box, boxMat);
-boxMesh.position.x = 0.9;
+boxMesh.position.x = 0.9
 boxMesh.position.y = 0.2;
 scene.add(boxMesh);
 boxMesh.add(line);
