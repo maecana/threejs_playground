@@ -22,6 +22,7 @@ const _specsTexturePath = '../public/assets/textures/earthspec1k.jpg';
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
 renderer.outputColorSpace = THREE.LinearSRGBColorSpace;
+renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(w, h);
 
 // Scenes

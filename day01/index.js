@@ -103,6 +103,7 @@ const onWindowResize = () => {
     }
 
     renderer.setSize(w, h);
+    renderer.setPixelRatio(window.devicePixelRatio);
 }
 
 // DOM 
